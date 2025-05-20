@@ -10,6 +10,7 @@
 
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -20,7 +21,7 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">TV Shows</a>
@@ -38,32 +39,32 @@
             
             <ul class="navbar-nav me-5 gap-3 align-items-center">
               <li class="nav-item ">
-                <div class="btn-group">
+                <div class="btn-group dropstart">
                 <button class="btn btn-dark btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
                 <ul class="dropdown-menu">
                     <li>
-                        <textarea name="search" id="search" placeholder="Cerca..."></textarea>
+                        <textarea name="search" id="search" placeholder="Cerca..." style="height: 30px;"></textarea>
                     </li>
                 </ul>
             </div>
-                <li class="nav-item" style="color: white;">
-                <span>KIDS</span>
+                <li class="nav-item">
+                <a class="nav-link" href="#">KIDS</a>
               </li>
               </li>
               <li class="nav-item" style="color: white;">
                 <i class="fa-solid fa-bell"></i>
               </li>
               <li class="nav-item">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="assets/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg" alt="" width="auto" height="30">
-                    </a>                    
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+               <div class="dropdown">
+                  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg" alt="profilo-icon" width="auto" height="30">
+                  </button>                   
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Preferiti</a></li>
+                      <li><a class="dropdown-item" href="#">Download</a></li>
                     </ul>
                 </div>
               </li>
@@ -74,7 +75,28 @@
           </div>
         </div>
     </nav>
+    <main class="bg-dark text-white p-5">
+      <section class="d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center gap-3">
+          <h1>TV Shows</h1>
+          <div class="dropdown-center">
+            <button class="btn btn-dark border-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Genres
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+             <li><a class="dropdown-item" href="#">Drammatico</a></li>
+             <li><a class="dropdown-item" href="#">Azione</a></li>
+             <li><a class="dropdown-item" href="#">Commedia</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <button class="bottone bg-dark"><i class="fa-solid fa-bars"></i></button>
+          <button class="bottone bg-dark"><i class="fa-solid fa-grip"></i></button>
+        </div>
+      </section>
 
+    </main>
 
 
 

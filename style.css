@@ -1,4 +1,6 @@
-body {
-    background-color: black;
+.bottone {
     color: white;
+    border: 1px solid white;
+    height: 35px;
+    width: 50px;
 }
