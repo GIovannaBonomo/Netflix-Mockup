@@ -4,3 +4,34 @@
     height: 35px;
     width: 50px;
 }
+
+i {
+    font-size:30px;
+}
+#liste ul li {
+    margin-bottom: 1rem;
+}
+#service {
+    border: 1px solid rgba(255,255,255,.5);
+    color: rgba(255,255,255,.5);
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    padding: 5px;
+}
+
+
+.carousel-item img {
+  transition: transform 0.3s ease;
+  z-index: 1;
+  position: relative;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+.carousel-control-next {
+    right: -31px!important;
+}
+.carousel-control-prev {
+    left: -25px!important;
+}
