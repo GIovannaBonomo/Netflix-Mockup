@@ -35,3 +35,11 @@ i {
 .carousel-control-prev {
     left: -25px!important;
 }
+@media (max-width: 767px) {
+  #visual-desktop{
+    display: none;
+  }  
+  #visual-phone {
+    display: inline!important;
+  }
+}
